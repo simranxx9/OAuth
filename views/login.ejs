@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <style>
+            nav{
+                float:left; 
+            }
+            nav ul{
+                display: flex;
+                margin: 0;
+                padding: 0;
+            }
+            nav ul li{
+                position: relative;
+                list-style-type: none;
+                margin:30px;
+            }
+            nav:after{
+                content: "";
+                display: block;
+                clear: both;
+            }
+            nav ul li a{
+                text-decoration: none;
+                color:#fff;
+                padding: 20px;
+                background-color: red;
+            }
+            nav ul li:hover a{
+                color:#111;
+                background-color: #fff;
+
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li><br>
+                <li><a href="/auth/google">Google +</a></li>
+            </ul>
+        </nav><br><br><br><br>
+        <header>
+            <h1>Login...</h1>
+            <h2>Using google+</h2>
+        </header>
+    </body>
+</html>
